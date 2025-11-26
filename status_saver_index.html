@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Status Saver</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #1a73e8;
+            font-size: 32px;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #1a73e8;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #e8f0fe;
+            padding: 15px;
+            border-left: 4px solid #1a73e8;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        strong {
+            color: #1a73e8;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Status Saver</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> November 26, 2025</p>
+
+        <div class="section">
+            <p>This Privacy Policy describes how Status Saver ("we", "our", or "the App") collects, uses, and protects your information when you use our mobile application. By using Status Saver, you agree to the collection and use of information in accordance with this policy.</p>
+        </div>
+
+        <div class="highlight">
+            <strong>Important:</strong> Status Saver is designed to work locally on your device. We do not collect, store, or transmit any personal data to external servers. All operations are performed on your device.
+        </div>
+
+        <div class="section">
+            <h2>1. Information We Collect</h2>
+            
+            <h3>1.1 Personal Information</h3>
+            <p><strong>We do NOT collect any personal information.</strong> Status Saver does not require registration, login, or any form of personal identification.</p>
+
+            <h3>1.2 Media Files</h3>
+            <p>The App accesses WhatsApp status files stored on your device's storage solely to display them within the application. These files remain on your device and are never uploaded to any server.</p>
+
+            <h3>1.3 Usage Data</h3>
+            <p>We do not collect any analytics, usage statistics, or behavioral data. The App functions entirely offline.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Permissions Required</h2>
+            <p>Status Saver requires the following permissions to function properly:</p>
+
+            <h3>2.1 Storage Permissions</h3>
+            <ul>
+                <li><strong>READ_EXTERNAL_STORAGE</strong> (Android 12 and below): Required to read WhatsApp status files from your device storage.</li>
+                <li><strong>READ_MEDIA_IMAGES</strong> (Android 13+): Required to access image files from WhatsApp statuses.</li>
+                <li><strong>READ_MEDIA_VIDEO</strong> (Android 13+): Required to access video files from WhatsApp statuses.</li>
+                <li><strong>WRITE_EXTERNAL_STORAGE</strong> (Android 9 and below): Required to save status files to your device's gallery.</li>
+                <li><strong>MANAGE_EXTERNAL_STORAGE</strong> (Android 11+): Required to access WhatsApp's media folder in the new Android storage structure.</li>
+            </ul>
+
+            <h3>2.2 Internet Permission</h3>
+            <ul>
+                <li><strong>INTERNET</strong>: Required solely for displaying advertisements through Google AdMob. No user data is transmitted over the internet by our app.</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>Note:</strong> All permissions are used exclusively for the core functionality of the app and are never used to collect or transmit personal data.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. How We Use Information</h2>
+            <p>Status Saver uses the accessed information only to:</p>
+            <ul>
+                <li>Display WhatsApp status files (images and videos) within the app</li>
+                <li>Save status files to your device's gallery when you choose to download them</li>
+                <li>Maintain a local database of saved statuses on your device</li>
+            </ul>
+            <p><strong>We do not:</strong></p>
+            <ul>
+                <li>Upload any files to external servers</li>
+                <li>Share your data with third parties (except as noted in the Third-Party Services section)</li>
+                <li>Track your usage or behavior</li>
+                <li>Collect any personal identifiable information</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Data Storage</h2>
+            <p>All data processed by Status Saver is stored locally on your device:</p>
+            <ul>
+                <li><strong>Saved Status Database:</strong> A local SQLite database stores references to files you've saved, including file paths and metadata. This database is stored in your app's private storage.</li>
+                <li><strong>Preferences:</strong> App settings (such as premium status) are stored locally using Android's SharedPreferences.</li>
+                <li><strong>Downloaded Files:</strong> Status files you save are stored in your device's DCIM/StatusSaver folder.</li>
+            </ul>
+            <p>No data leaves your device except for standard Google AdMob ad requests (see Third-Party Services section).</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Third-Party Services</h2>
+            
+            <h3>5.1 Google AdMob</h3>
+            <p>Status Saver uses Google AdMob to display advertisements. AdMob may collect certain information to serve personalized ads, including:</p>
+            <ul>
+                <li>Device information (device model, operating system version)</li>
+                <li>IP address</li>
+                <li>Advertising ID</li>
+                <li>App interaction data</li>
+            </ul>
+            <p>This data is collected and processed by Google in accordance with their privacy policy:</p>
+            <p><a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+            <p><a href="https://support.google.com/admob/answer/6128543" target="_blank">https://support.google.com/admob/answer/6128543</a></p>
+
+            <h3>5.2 Opting Out of Personalized Ads</h3>
+            <p>You can opt out of personalized advertising by:</p>
+            <ul>
+                <li>Visiting Google's Ad Settings: <a href="https://adssettings.google.com" target="_blank">https://adssettings.google.com</a></li>
+                <li>Using your device's advertising settings (Settings > Google > Ads > Opt out of Ads Personalization)</li>
+            </ul>
+
+            <h3>5.3 Premium Version</h3>
+            <p>Users who purchase the premium version of the app will have all advertisements removed. No ads-related data will be collected for premium users.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. WhatsApp Status Files</h2>
+            <p><strong>Important Disclaimer:</strong></p>
+            <ul>
+                <li>Status Saver accesses WhatsApp status files that are temporarily stored on your device by WhatsApp.</li>
+                <li>We are not affiliated with, endorsed by, or sponsored by WhatsApp Inc. or Meta Platforms, Inc.</li>
+                <li>Users are responsible for respecting the privacy and intellectual property rights of content creators.</li>
+                <li>We encourage users to obtain permission before saving or sharing others' status content.</li>
+                <li>The app is designed for personal, non-commercial use only.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. Data Security</h2>
+            <p>We prioritize the security of your data:</p>
+            <ul>
+                <li>All data is stored locally on your device in secure, app-private storage</li>
+                <li>We use Android's built-in security features to protect your data</li>
+                <li>No user data is transmitted to external servers</li>
+                <li>The app does not have backend servers or cloud storage</li>
+            </ul>
+            <p>However, please note that no method of electronic storage is 100% secure. We cannot guarantee absolute security of data stored on your device.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Children's Privacy</h2>
+            <p>Status Saver does not knowingly collect any information from children under the age of 13. The app does not target children and is intended for general audiences. Since we don't collect any personal information, we do not have data from children to delete. If you are a parent or guardian and believe your child has used the app, you can simply uninstall it from their device.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Data Deletion</h2>
+            <p>Since all data is stored locally on your device:</p>
+            <ul>
+                <li>You can delete individual saved statuses within the app using the delete button</li>
+                <li>You can delete all app data by clearing app data in your device settings (Settings > Apps > Status Saver > Storage > Clear Data)</li>
+                <li>Uninstalling the app will remove all app data from your device</li>
+                <li>Downloaded status files in your gallery can be deleted manually from your device's file manager or gallery app</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by:</p>
+            <ul>
+                <li>Posting the new Privacy Policy on this page</li>
+                <li>Updating the "Last Updated" date at the top of this Privacy Policy</li>
+                <li>Providing an in-app notification (if significant changes are made)</li>
+            </ul>
+            <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Your Rights</h2>
+            <p>As a user, you have the right to:</p>
+            <ul>
+                <li>Know what data the app accesses (as described in this policy)</li>
+                <li>Control app permissions through your device settings</li>
+                <li>Delete all app data at any time</li>
+                <li>Opt out of personalized advertising</li>
+                <li>Uninstall the app at any time</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>12. Disclaimer</h2>
+            <p>Status Saver is an independent application and is not affiliated with, endorsed by, or sponsored by:</p>
+            <ul>
+                <li>WhatsApp Inc.</li>
+                <li>Meta Platforms, Inc.</li>
+                <li>Any other messaging or social media platform</li>
+            </ul>
+            <p>WhatsApp is a trademark of WhatsApp LLC. All product names, logos, and brands are property of their respective owners.</p>
+        </div>
+
+        <div class="section">
+            <h2>13. Legal Compliance</h2>
+            <p>This app complies with:</p>
+            <ul>
+                <li>Google Play Store policies</li>
+                <li>Android platform guidelines</li>
+                <li>General Data Protection Regulation (GDPR) principles</li>
+                <li>California Consumer Privacy Act (CCPA) guidelines</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <h2>14. Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+            <p><strong>Email:</strong> bilalhameed0800@gmail.com</p>
+            <p><strong>Developer:</strong> Bilal Hameed</p>
+            <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours.</p>
+        </div>
+
+        <div class="section">
+            <h2>15. Consent</h2>
+            <p>By using Status Saver, you hereby consent to our Privacy Policy and agree to its terms. If you do not agree with this policy, please do not use our app.</p>
+        </div>
+
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <p style="text-align: center; color: #666; font-size: 14px;">
+            © 2025 Status Saver. All rights reserved.<br>
+            This Privacy Policy is effective as of November 26, 2025.
+        </p>
+    </div>
+</body>
+</html>
