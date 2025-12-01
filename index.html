@@ -115,6 +115,35 @@
                 font-size: 20px;
             }
         }
+
+        ul.checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.checklist li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+ul.checklist li:before {
+    content: "✓";
+    color: #25D366;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+
+h4 {
+    color: #075E54;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+        
     </style>
 </head>
 <body>
@@ -249,16 +278,119 @@
             <p>Status Saver does not knowingly collect any information from children under the age of 13. The app does not target children and is intended for general audiences. Since we don't collect any personal information, we do not have data from children to delete. If you are a parent or guardian and believe your child has used the app, you can simply uninstall it from their device.</p>
         </div>
 
-        <div class="section">
-            <h2>9. Data Deletion</h2>
-            <p>Since all data is stored locally on your device:</p>
-            <ul>
-                <li>You can delete individual saved statuses within the app using the delete button</li>
-                <li>You can delete all app data by clearing app data in your device settings (Settings > Apps > Status Saver > Storage > Clear Data)</li>
-                <li>Uninstalling the app will remove all app data from your device</li>
-                <li>Downloaded status files in your gallery can be deleted manually from your device's file manager or gallery app</li>
-            </ul>
-        </div>
+      <div class="section" id="data-deletion">
+    <h2>9. Data Deletion & Your Rights</h2>
+    
+    <div class="highlight">
+        <strong>Want to delete your data?</strong> You have full control over your data. Follow the instructions below to delete all information associated with Status Saver.
+    </div>
+
+    <h3>9.1 How to Delete Your Data</h3>
+    <p>Since all data is stored locally on your device, you can delete it at any time using these methods:</p>
+
+    <h4>Method 1: Delete Individual Saved Statuses</h4>
+    <ol>
+        <li>Open the <strong>Status Saver</strong> app</li>
+        <li>Go to the <strong>"Saved"</strong> tab</li>
+        <li>Tap the <strong>delete button</strong> on any saved status</li>
+        <li>Confirm the deletion</li>
+    </ol>
+    <p><strong>Result:</strong> The selected status file and its database entry are permanently removed.</p>
+
+    <h4>Method 2: Clear All App Data (Without Uninstalling)</h4>
+    <ol>
+        <li>Open your device <strong>Settings</strong></li>
+        <li>Go to <strong>Apps</strong> or <strong>Application Manager</strong></li>
+        <li>Find and select <strong>Status Saver</strong></li>
+        <li>Tap <strong>Storage</strong> or <strong>Storage & cache</strong></li>
+        <li>Tap <strong>Clear Data</strong> or <strong>Clear Storage</strong></li>
+        <li>Confirm the action</li>
+    </ol>
+    <p><strong>Result:</strong> All app data is removed, but the app remains installed.</p>
+
+    <h4>Method 3: Uninstall the App (Complete Removal)</h4>
+    <ol>
+        <li>Open your device <strong>Settings</strong></li>
+        <li>Go to <strong>Apps</strong> or <strong>Application Manager</strong></li>
+        <li>Find and select <strong>Status Saver</strong></li>
+        <li>Tap <strong>Uninstall</strong></li>
+        <li>Confirm the uninstallation</li>
+    </ol>
+    <p><strong>Result:</strong> All app data, including saved statuses and preferences, are permanently removed from your device.</p>
+
+    <h4>Method 4: Delete Downloaded Files from Gallery</h4>
+    <ol>
+        <li>Open your device's <strong>File Manager</strong> or <strong>Gallery</strong> app</li>
+        <li>Navigate to <strong>DCIM/StatusSaver</strong> folder</li>
+        <li>Select and delete the files you want to remove</li>
+    </ol>
+    <p><strong>Result:</strong> Saved status files are removed from your device storage.</p>
+
+    <h3>9.2 What Data Gets Deleted</h3>
+    <p>When you clear app data or uninstall Status Saver, the following information is deleted:</p>
+    <ul class="checklist">
+        <li>All saved WhatsApp status files (photos and videos)</li>
+        <li>Local database containing references to saved statuses</li>
+        <li>App preferences and settings (including premium status)</li>
+        <li>Download counters and daily limits</li>
+        <li>All app-generated data stored in private storage</li>
+    </ul>
+
+    <h3>9.3 Third-Party Data (Google AdMob)</h3>
+    <p>Data collected by Google AdMob (advertising ID, device information, app usage) is managed separately by Google. To manage or delete this data:</p>
+
+    <h4>Reset Your Advertising ID</h4>
+    <ol>
+        <li>Open your device <strong>Settings</strong></li>
+        <li>Go to <strong>Google</strong> → <strong>Ads</strong></li>
+        <li>Tap <strong>Reset advertising ID</strong></li>
+    </ol>
+
+    <h4>Opt Out of Personalized Ads</h4>
+    <ol>
+        <li>Open your device <strong>Settings</strong></li>
+        <li>Go to <strong>Google</strong> → <strong>Ads</strong></li>
+        <li>Enable <strong>Opt out of Ads Personalization</strong></li>
+    </ol>
+
+    <h4>Delete AdMob Data Through Google</h4>
+    <p>To request deletion of data collected by Google AdMob:</p>
+    <ul>
+        <li>Visit <a href="https://myaccount.google.com/data-and-privacy" target="_blank">Google Privacy Controls</a></li>
+        <li>Review and manage your advertising data</li>
+        <li>Request deletion through Google's privacy dashboard</li>
+    </ul>
+    <p>For more information, see:</p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policy</a></li>
+    </ul>
+
+    <h3>9.4 Data Retention Period</h3>
+    <ul>
+        <li><strong>Local Data:</strong> Deleted immediately when you clear app data or uninstall</li>
+        <li><strong>AdMob Data:</strong> Managed by Google according to their retention policies (typically 26-60 months)</li>
+        <li><strong>No Server Storage:</strong> We do not store any data on our servers, so there is no data to retain or delete on our end</li>
+    </ul>
+
+    <h3>9.5 Request Data Deletion Assistance</h3>
+    <p>If you need help deleting your data or have questions about the deletion process, please contact us:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:bilalhameed0800@gmail.com">bilalhameed0800@gmail.com</a></li>
+        <li><strong>Subject Line:</strong> "Data Deletion Request - Status Saver"</li>
+        <li><strong>Response Time:</strong> Within 48 hours</li>
+    </ul>
+    <p>In your email, please include:</p>
+    <ul>
+        <li>Your device model and Android version</li>
+        <li>Description of what data you want to delete</li>
+        <li>Any specific issues you're experiencing</li>
+    </ul>
+
+    <div class="highlight">
+        <strong>Important:</strong> Since Status Saver stores all data locally on your device and does not use backend servers, we cannot remotely delete any data. You have complete control over data deletion through your device settings.
+    </div>
+</div>
 
         <div class="section">
             <h2>10. Changes to This Privacy Policy</h2>
@@ -305,13 +437,14 @@
             </ul>
         </div>
 
-        <div class="contact-info">
-            <h2>14. Contact Us</h2>
-            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
-            <p><strong>Email:</strong> bilalhameed0800@gmail.com</p>
-            <p><strong>Developer:</strong> Bilal Hameed</p>
-            <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours.</p>
-        </div>
+      <div class="contact-info">
+    <h2>14. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy, data deletion, or our data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:bilalhameed0800@gmail.com">bilalhameed0800@gmail.com</a></p>
+    <p><strong>Developer:</strong> Bilal Hameed</p>
+    <p><strong>Response Time:</strong> We aim to respond to all inquiries within 48 hours.</p>
+    <p><strong>For Data Deletion Requests:</strong> Please use subject line "Data Deletion Request - Status Saver"</p>
+</div>
 
         <div class="section">
             <h2>15. Consent</h2>
